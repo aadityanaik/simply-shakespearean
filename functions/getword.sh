@@ -4,7 +4,7 @@ getword() {
   then
     echo "Couldn't find the dictionary"
   else
-    dictionary="/usr/share/dict/american-english"
+    dictionary="data/words.txt"
   fi
 
   # Get a random word from dictionary
